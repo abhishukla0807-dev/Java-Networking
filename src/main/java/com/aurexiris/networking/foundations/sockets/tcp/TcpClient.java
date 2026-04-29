@@ -7,7 +7,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class TcpClient {
-    private static final Logger logger = Logger.getLogger(TcpClient.class.getName());
+    protected static final Logger logger = Logger.getLogger(TcpClient.class.getName());
 
     public static void main(String[] args) {
 
